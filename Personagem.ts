@@ -1,4 +1,4 @@
-class Personagem {
+export default class Personagem {
 
     constructor(
         public nome: string,
@@ -46,8 +46,6 @@ class Personagem {
         console.log('Energia: ', this.energia)
         console.log('Ataque: ', this.ataque)
         console.log('Defesa: ', this.defesa)
-        console.log('Vida: ', this.dinheiro)
+        console.log('Dinheiro: ', this.dinheiro)
     }
 }
-
-let ryu: Personagem = new Personagem('Ryu Hoshi', 10, 10, 100, 0);
